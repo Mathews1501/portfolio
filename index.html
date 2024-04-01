@@ -4,59 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home page</a>
-            <a href="projects.html">Projects</a>
-            <a href="resume.html">Resume</a>
-            <a href="contactme.html">Contact me</a>
-        </nav>
+        <div class="container">
+            <h1>My Portfolio</h1>
+        </div>
     </header>
 
-  <main>
-    <section class="portfolio-picture">
-        <img class="portfolio-img" src="images/portfolio picture.jpg" alt="portfolio picture">
-    </section>
-    <section>
-        <p>
-            Welcome to my corner of the web, where innovation meets functionality, 
-            and creativity knows no bounds. As an aspiring software developer, I understand 
-            the importance of a compelling digital presence. Your portfolio website should not only
-            showcase your skills but also provide a seamless experience for potential employers or clients.
-            With that in mind, I've designed this platform to offer a comprehensive view of my expertise, projects,
-            and capabilities.
-    
-            The driving force behind this portfolio website is to provide you with a glimpse into my world of software development.
-            I believe in the power of technology to transform businesses and improve lives. Through this platform,
-            I aim to inspire, collaborate, and contribute to the ever-evolving landscape of software development.
-    
-            I thrive on crafting seamless digital experiences that leave a lasting impression. With a keen eye for design and a love for clean,
-            efficient code, I'm dedicated to bringing your ideas to life. Whether it's building responsive websites,
-            creating intuitive user interfaces, or diving into the latest tech trends, I'm up for the challenge.
-            Take a look around and explore some of my projects, where you'll find a blend of creativity, functionality,
-            and attention to detail. If you're interested in collaborating or just want to chat tech,
-            feel free to get in touch through the contact form below. Let's build something amazing together.
-          </p>
-    </section>
-  </main>
-
-    <footer>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactme.html">Contact me</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </footer>     
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <section id="portfoliopicture">
+                <div class="imgcontainer">
+                    <img src="images/portfolio picture.jpg" alt="">
+                </div>
+            </section>
+            <!-- Your about me section goes here -->
+            <p>
+                Welcome to my corner of the web, where innovation meets functionality, 
+                and creativity knows no bounds. As an aspiring software developer, I understand 
+                the importance of a compelling digital presence. Your portfolio website should not only
+                showcase your skills but also provide a seamless experience for potential employers or clients.
+                With that in mind, I've designed this platform to offer a comprehensive view of my expertise, projects,
+                and capabilities. <br>
+                                    <br>
+                The driving force behind this portfolio website is to provide you with a glimpse into my world of software development.
+                I believe in the power of technology to transform businesses and improve lives. Through this platform,
+                I aim to inspire, collaborate, and contribute to the ever-evolving landscape of software development. <br>
+                                                                                                                        <br>
+                I thrive on crafting seamless digital experiences that leave a lasting impression. With a keen eye for design and a love for clean,
+                efficient code, I'm dedicated to bringing your ideas to life. Whether it's building responsive websites,
+                creating intuitive user interfaces, or diving into the latest tech trends, I'm up for the challenge.
+                Take a look around and explore some of my projects, where you'll find a blend of creativity, functionality,
+                and attention to detail. If you're interested in collaborating or just want to chat tech,
+                feel free to get in touch through the contact form below. Let's build something amazing together.
+              </p>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="container">
+               <h2>Competancy</h2>
+
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                  <div class="skill-level" id="html-bar"></div>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" id="css-bar"></div>
+                    </div>
+                  
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" id="javascript-bar"></div>
+                    </div>
+              </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="pcontainer">
+            <h2>Projects</h2> <br>
+            <a href="https://https://theinsurancebroker2.wordpress.com/" target="_blank">
+                <img class="app-img" src="images/IMG-20240307-WA0028.jpg" alt="">
+                <br>
+                <br>
+                <h6>
+                Insurance broker <br>
+                Wordpress Website
+                </h6>
+            </a>
+
+            <a href="https://mathews1501.github.io/enquiryapp/" target="_blank">
+                <img class="app-img" src="images/IMG-20240307-WA0028.jpg" alt="">
+                <br>
+                <br>
+                <h6>
+                Enquiry Form<br>
+                Web App
+                </h6>
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=+27684793840" target="_blank">
+                <img class="app-img" src="images/IMG-20240307-WA0028.jpg" alt="">
+                <br>
+                <br>
+                <h6>
+                Insurance broker <br>
+                web app
+                </h6>
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=+27684793840" target="_blank">
+                <img class="app-img" src="images/IMG-20240307-WA0028.jpg" alt="">
+                <br>
+                <br>
+                <h6>
+                Insurance broker <br>
+                web app
+                </h6>
+            </a>
+
+            </div>
+         </section>
+
+    <section id="contact">
+        <div class="social">
+            <h2>Contact</h2> <br>
+                <a href="https://api.whatsapp.com/send?phone=+27684793840" target="_blank">
+                  <img src="images/icons8-whatsapp-48.png" alt="whatsapp icon">
+              </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/icons8-facebook-48.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/icons8-twitterx-50.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/icons8-instagram-48.png" alt="instagram icon">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                  <img src="images/icons8-linkedin-48.png" alt="instagram icon">
+              </a>
+        </div>
+    </section>
+    
+    
 </body>
+
+<footer>
+        <div class="container">
+            <p>&copy; 2024 Mathews Chipeta</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </html>

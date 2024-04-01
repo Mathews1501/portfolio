@@ -95,6 +95,7 @@ footer {
     
   }
 
+  /* my portfolio picture container */
   .imgcontainer {
     display: flex;
     justify-content: center;
@@ -102,6 +103,7 @@ footer {
     height: 300px; /* Adjust as needed */
 }
 
+/* my portfolio picture */
 .container img {
     max-width: 100%;
     max-height: 100%;
@@ -123,14 +125,14 @@ footer {
     border: 2px solid black;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: none;
+    box-shadow: 2px 2px 5px rgb(245, 5, 5);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
   }
 
   .bar span{
     height: 20px;
     float: left;
-    background: linear-gradient(135deg,rgb(248, 19, 19)0%, rgba(56, 224, 236, 0.548)100%);
+    background: linear-gradient(135deg,rgba(39, 187, 245, 0.521)0%, rgba(56, 224, 236, 0.938)100%);
   }
 
 
@@ -207,20 +209,20 @@ footer {
   text-align: center;
   
 }
-/* Style for each projects icon link */
+/* Style for each projects  link */
 .pcontainer a {
   color: #000000;
   text-decoration: none;
   display: inline-block;
   padding-top: 20px;
   padding-left: 50px;
-  margin-right: 30px; /* Adjust spacing between project icons */
+  margin-right: 30px; /* Adjust spacing between project links */
 }
 
-/* Style for the projects icon images */
+/* Style for the projects images */
 .pcontainer img {
-  width: 180px; 
-  height: 180%; 
+  width: 190px; 
+  height: 190px;
   border-radius: 20%;
   box-shadow: 5px 5px 10px #000000;
   transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */

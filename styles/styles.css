@@ -135,10 +135,9 @@ footer {
     background: linear-gradient(135deg,rgba(39, 187, 245, 0.521)0%, rgba(56, 224, 236, 0.938)100%);
   }
 
-
   .html{
     width: 80%;
-    animation: html 5s;
+    animation: html 3s;
   }
   
   .css{
@@ -148,12 +147,12 @@ footer {
 
   .javascript{
     width: 50%;
-    animation: html 0.5s;
+    animation: html 10s;
   }
 
   .python{
     width: 65%;
-    animation: html 0.8s;
+    animation: html 10s;
   }
 
   @keyframes html{

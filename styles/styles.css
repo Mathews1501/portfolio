@@ -136,23 +136,23 @@ footer {
   }
 
   .html{
-    width: 80%;
+    width: 100%;
     animation: html 3s;
   }
   
   .css{
-    width: 70%;
+    width: 100%;
     animation: html 3s;
   }
 
   .javascript{
-    width: 50%;
-    animation: html 10s;
+    width: 100%;
+    animation: html 3s;
   }
 
   .python{
-    width: 65%;
-    animation: html 10s;
+    width: 100%;
+    animation: html 3s;
   }
 
   @keyframes html{
@@ -160,7 +160,7 @@ footer {
       width: 0%;
     }
     100%{
-      width: 80%;
+      width: 100%;
     }
   }
 
@@ -169,7 +169,7 @@ footer {
       width: 0%;
     }
     100%{
-      width: 70%;
+      width: 100%;
     }
   }
 
@@ -178,7 +178,7 @@ footer {
       width: 0%;
     }
     100%{
-      width: 50%;
+      width: 100%;
     }
   }
 
@@ -187,7 +187,7 @@ footer {
       width: 0%;
     }
     100%{
-      width: 65%;
+      width: 100%;
     }
   }
 
@@ -227,4 +227,32 @@ footer {
   transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
 }
 
+/* animation for paragragh in about section */
+.paragraph-container {
+  animation: slideIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(50px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+#paragraph1 {
+  animation-delay: 0.5s;
+}
+
+#paragraph2 {
+  animation-delay: 1s;
+}
+
+#paragraph3 {
+  animation-delay: 1.5s;
+}
 

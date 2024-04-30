@@ -20,22 +20,48 @@ background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
     max-width: 65%;
     margin: 0 auto;
     padding: 0 20px;
-    border: #e90808;
+
 
 }
 
-section {
-  margin-bottom: 10%; 
+#about  {
+  margin-bottom: 10px; 
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 600px;  
+  height: 900px;  
 }
+
+#skill {
+  margin-bottom: 10px; 
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;  
+}
+
+#projects {
+  margin-top: 10px; 
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 404px;  
+}
+
+#contact {
+  
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;  
+}
+
+
 
 header, nav, section, footer {
     padding: 20px 0;
     width: 100;
-    border: #e90808;
+  
 }
 
 
@@ -86,7 +112,7 @@ p{
 }
 
 section img{
-  width: 30%;
+  width: 10%;
   border-radius: 20px;
   box-shadow: 8px 8px 16px black; 
 
@@ -310,4 +336,71 @@ span{
 
 #scrollUpBtn:hover {
   background-color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+      
+  }
+  
+  .container {
+      
+  }
+  
+  #about {
+  margin-bottom: 10px; 
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 30%;
+  }
+  
+  #skill {
+    margin-bottom: 10px; 
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 300px; 
+  }
+  
+  #projects {
+    margin-top: 10px; 
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  }
+  
+  #contact {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 200px; 
+  }
+  
+  header, nav, section, footer {
+    height: 20px;
+  }
+  
+  .header {
+    font-size: 8px;
+    height: 2.5%;
+  }
+  
+  h2, section p, p {
+      font-size: 8px;
+  }
+  
+  section img, .app-img, .pcontainer img {
+    
+      
+  }
+  
+  .nav-container, nav ul, nav ul li, nav ul li a {
+     
+  }
+  
+  footer, .social, .social a, .social img, .pcontainer a, #scrollUpBtn {
+      
+  }
 }

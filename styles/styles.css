@@ -25,20 +25,37 @@ body {
     max-width: 65%;
     margin: 0 auto;
     padding: 0 20px;
-
-
 }
 
+.download-container {
+  margin-top: 30px; /* Adjust this value as needed */
+}
+
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust color as needed */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0056b3; /* Adjust hover color as needed */
+}
+
+
 #about  {
-  margin-bottom: 10px; 
+  
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 900px;  
+  height: 600px;  
 }
 
 #skill {
-  margin-bottom: 10px; 
+   
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -46,11 +63,11 @@ body {
 }
 
 #projects {
-  margin-top: 10px; 
+  
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 404px;  
+  height: 400px;  
 }
 
 #contact {
@@ -71,25 +88,28 @@ header, nav, section, footer {
 
 
 .header {
-  opacity: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
   padding-top: 10px; 
-  padding-bottom: 20px; 
+  padding-bottom: 40px; 
   width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(90deg, #4b5252 0%, #9FACE6 100%);
   background-color: #333; 
-  letter-spacing: .15em; 
+  letter-spacing: .15em;
+  
 }
 
-
 .header h1 {
-  opacity: 100%;
   color: #000000;
-  margin-left: 2%;
   text-shadow:2px 2px 4px white;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 h2{
@@ -117,18 +137,12 @@ p{
   letter-spacing: .15em;
 }
 
-section img{
-  width: 10%;
-  border-radius: 20px;
-  box-shadow: 8px 8px 16px black; 
 
-}
 
 .nav-container {
   display: flex; 
   align-items: center; 
   font-weight: 500;
-  margin-right: 2%;
 }
 
 nav ul {
@@ -150,6 +164,7 @@ nav ul li a {
 
 nav a:hover {
   color: #000000;
+  transform: scale(1.2); 
 }
 
 footer {
@@ -211,7 +226,7 @@ span{
   }
 
   .bar{
-    background: black;
+    background: #333;
     display: block;
     height: 20px;
     border: 2px solid black;
@@ -224,7 +239,8 @@ span{
   .bar span{
     height: 20px;
     float: left;
-    background: linear-gradient(135deg,rgba(39, 187, 245, 0.521)0%, rgba(56, 224, 236, 0.938)100%);
+    background: linear-gradient(90deg, #4b5252 0%, #9FACE6 100%);
+  background-color: #333; 
     animation-iteration-count: infinite;
   
   }
@@ -344,25 +360,27 @@ span{
   background-color: gray;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 720px) {
   body {
-      
+      width: 100%;
   }
-  
+
   .container {
-      
-  }
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
   
   #about {
-  margin-bottom: 10px; 
+     
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 30%;
+  height: 300px;
   }
   
   #skill {
-    margin-bottom: 10px; 
+     
     justify-items: center;
     align-items: center;
     text-align: center;
@@ -374,7 +392,7 @@ span{
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 400px;
+  height: 600px;
   }
   
   #contact {
@@ -397,16 +415,25 @@ span{
       font-size: 8px;
   }
   
-  section img, .app-img, .pcontainer img {
-    
-      
+
+  #scrollUpBtn {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    color: #007bff;
+    border: none;
+    border-radius: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 99;
+    box-shadow: 5px 5px 10px #6f7364;
   }
   
-  .nav-container, nav ul, nav ul li, nav ul li a {
-     
-  }
-  
-  footer, .social, .social a, .social img, .pcontainer a, #scrollUpBtn {
-      
-  }
+  #scrollUpBtn:hover {
+    background-color: gray;
+}
 }

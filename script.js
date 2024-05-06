@@ -44,4 +44,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const headings = document.querySelectorAll('.heading');
+
+  setInterval(() => {
+    let activeHeading = document.querySelector('.heading.active');
+    let nextHeading = activeHeading.nextElementSibling;
+    
+    if (!nextHeading) {
+      nextHeading = headings[0];
+    }
+
+    activeHeading.classList.remove('active');
+    nextHeading.classList.add('active');
+    activeHeading.classList.add('next');
+
+    setTimeout(() => {
+      activeHeading.classList.remove('next');
+    }, 1000); // transition duration
+  }, 5000); // Change heading every 5 seconds (adjust as needed)
+});
+
   

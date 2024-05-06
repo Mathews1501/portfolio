@@ -11,9 +11,50 @@
     
 }
 
+img{
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 30px;
+}
+
+.heading-container {
+  text-align: center;
+  position: relative;
+}
+
+.heading {
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: left 1s ease-in-out;
+  opacity: 0;
+}
+
+.heading.active {
+  opacity: 1;
+  left: 0;
+}
+
+.heading.next {
+  left: 100%;
+}
+
+/* Add animation delay for subsequent headings */
+.heading:nth-child(2) {
+  transition-delay: 2s; /* Adjust delay as needed */
+}
+
+.heading:nth-child(3) {
+  transition-delay: 4s; /* Adjust delay as needed */
+}
+
+
 body {
   background: white;
 }
+
 
 .separator {
   width: 100%;
@@ -51,7 +92,7 @@ body {
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 600px;  
+  height: auto;  
 }
 
 #skill {
@@ -59,7 +100,7 @@ body {
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 300px;  
+  height: auto;  
 }
 
 #projects {
@@ -67,7 +108,7 @@ body {
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 400px;  
+  height: auto;  
 }
 
 #contact {
@@ -75,7 +116,7 @@ body {
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 200px;  
+  height: auto;  
 }
 
 
@@ -363,6 +404,7 @@ span{
 @media only screen and (max-width: 720px) {
   body {
       width: 100%;
+      font-size: 6%;
   }
 
   .container {
@@ -376,7 +418,7 @@ span{
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 300px;
+  height: auto;
   }
   
   #skill {
@@ -384,22 +426,21 @@ span{
     justify-items: center;
     align-items: center;
     text-align: center;
-    height: 300px; 
+    height: auto; 
   }
   
   #projects {
-    margin-top: 10px; 
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 600px;
+  height: auto;
   }
   
   #contact {
   justify-items: center;
   align-items: center;
   text-align: center;
-  height: 200px; 
+  
   }
   
   header, nav, section, footer {
@@ -419,15 +460,15 @@ span{
   #scrollUpBtn {
     display: block;
     position: fixed;
-    bottom: 50px;
-    right: 30px;
-    width: 60px;
-    height: 60px;
+    bottom: 45px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
     background-color: #333;
     color: #007bff;
     border: none;
     border-radius: 20px;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
     z-index: 99;
     box-shadow: 5px 5px 10px #6f7364;

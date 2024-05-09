@@ -550,4 +550,122 @@ form ul {
   #scrollUpBtn:hover {
     background-color: gray;
 }
+
+.header h1 {
+  color: #000000;
+  text-shadow:2px 2px 4px white;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h2{
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-shadow: 4px 4px 8px grey;
+}
+
+h3{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: .15em;
+  font-size: 10px;
+  margin-top: 5%;
+
+}
+
+
+.form-container {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+  width: 400px;
+  border: #000 2px solid;
+  border-radius: 20px;
+  box-shadow: #0056b3 2px 2px 3px ;
+}
+
+.formbtn{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: #000 2px solid;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.formbtn:hover{
+  cursor: pointer;
+}
+
+input{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+  border: #000 solid 2px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 11px solid;
+  text-align: center;
+  
+}
+
+
+form ul {
+  list-style: none;
+  justify-content: center;
+  align-content: center;
+  align-items:center ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* Reset default margin and padding for the social icons container */
+.social {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  
+}
+/* Style for each social media icon link */
+.social a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+/* Style for the social media icon images */
+.social img {
+  width: 20px; /* Adjust the width of the icons */
+  height: 20px; /* Adjust the height of the icons */
+  border-radius: 50%; /* Create a circular shape */
+  box-shadow: 5px 5px 10px #6f7364;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+
+/* Hover effect for the icons */
+.social a:hover img {
+  transform: scale(1.2); /* Enlarge the icon on hover */
+  
+}
+
 }

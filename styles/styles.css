@@ -13,10 +13,14 @@
 
 body{
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+ 
 }
 
 #porfoliopicture img{
-  width: 150px;
+  width: 600px;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -92,6 +96,7 @@ body{
   align-items: center;
   text-align: center;
   height: auto;  
+
 }
 
 #skill {
@@ -519,6 +524,7 @@ form ul {
   .header {
     font-size: 8px;
     height: 2.5%;
+    
   }
   
   h2, section p, p {

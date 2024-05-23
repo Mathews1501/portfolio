@@ -25,37 +25,6 @@ body{
   align-content: center;
 }
 
-.heading-container {
-  text-align: center;
-  position: relative;
-}
-
-.heading {
-  top: 0;
-  left: 0;
-  width: 100%;
-  transition: left 1s ease-in-out;
-  opacity: 0;
-}
-
-.heading.active {
-  opacity: 1;
-  left: 0;
-}
-
-.heading.next {
-  left: 100%;
-}
-
-.heading:nth-child(2) {
-  transition-delay: 2s; 
-}
-
-.heading:nth-child(3) {
-  transition-delay: 4s; 
-}
-
-
 
 
 .separator {
@@ -215,7 +184,7 @@ nav ul li a {
 }
 
 nav a:hover {
-  color: #000000;
+  color: #007bff;
   transform: scale(1.2); 
 }
 
@@ -429,7 +398,35 @@ form ul {
   }
   body {
     width: 100%;
- 
+}
+
+.nav-container {
+  display: flex; 
+  align-items: center; 
+  font-weight: 500;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0; 
+  padding: 0; 
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #007bff;
+  transform: scale(1.2); 
 }
 
 .container {
@@ -575,7 +572,7 @@ form{
   align-items: center;
   align-content: center;
   justify-self: center;
-  width: 200px;
+  width: 400px;
   border: #000 2px solid;
   border-radius: 20px;
   margin-top: -7%;
@@ -592,6 +589,7 @@ form{
 
 .formbtn:hover{
   cursor: pointer;
+  background-color: #007bff;
 }
 
 input{
@@ -604,8 +602,7 @@ input{
   padding-top: 5px;
   margin-bottom: 5%;
   border-radius: 20px;
-  width: 150px;
-  font-size: 11px solid;
+  width: 300px;
   text-align: center;
   
 }
@@ -635,8 +632,8 @@ form ul {
 
 
 .social img {
-  width: 20px; 
-  height: 20px; 
+  width: 40px; 
+  height: 40px; 
   border-radius: 50%; 
   box-shadow: 5px 5px 10px #6f7364;
   transition: transform 0.3s ease-in-out; 

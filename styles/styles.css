@@ -429,7 +429,7 @@ form ul {
   }
   body {
     width: 100%;
-    font-size: 4%;
+ 
 }
 
 .container {
@@ -466,6 +466,7 @@ form ul {
   align-items: center;
   text-align: center;
   height: auto;
+
   
   
   }
@@ -503,7 +504,7 @@ form ul {
   }
   
   h2, section p, p {
-      font-size: 8px;
+      font-size: 15px;
   }
   
 
@@ -534,11 +535,13 @@ form ul {
    display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 30px;
+  
   
 }
 
 h2{
-  font-size: 12px;
+  font-size: 20px;
   align-items: center;
   justify-content: center;
   font-weight: 800;
@@ -552,7 +555,7 @@ h3{
   text-align: center;
   font-weight: 800;
   letter-spacing: .15em;
-  font-size: 10px;
+  font-size: 12px;
   
 
 }

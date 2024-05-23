@@ -55,27 +55,8 @@ body{
   transition-delay: 4s; 
 }
 
-.about-paragraph{
-  max-height: 100px;
-  overflow: hidden;
-}
 
-.about-paragraph2{
-  display: none;
-}
 
-.read-more{
-  display: block;
-  color: #0056b3;
-}
-
-.read-more:hover{
-  cursor: pointer;
-}
-
-.expend{
-  max-height: none;
-}
 
 .separator {
   width: 100%;
@@ -557,10 +538,9 @@ form ul {
 }
 
 h2{
-  font-size: 10px;
+  font-size: 12px;
   align-items: center;
   justify-content: center;
- 
   font-weight: 800;
   letter-spacing: .15em;
   text-shadow: 4px 4px 8px grey;
@@ -570,13 +550,12 @@ h3{
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: .15em;
-  font-size: 8px;
-  margin-top: 5%;
+  font-size: 10px;
+  
 
 }
-
 
 .form-container {
   display: flex;
@@ -596,7 +575,7 @@ form{
   width: 200px;
   border: #000 2px solid;
   border-radius: 20px;
-  margin-top: -18%;
+  margin-top: -7%;
   
 }
 

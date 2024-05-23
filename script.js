@@ -66,4 +66,13 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 5000); // Change heading every 5 seconds (adjust as needed)
 });
 
+document.querySelector('.read-more').addEventListener('click',function(){
+  const content = document.querySelector('.content');
+  const aboutParagraph2 = document.querySelector('.about-paragraph2');
+  const readMore = document.querySelector('.read-more');
+
+  
+
+
+});
   

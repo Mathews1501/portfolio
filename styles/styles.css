@@ -446,12 +446,15 @@ form ul {
   .skills ul li, .projects ul li {
       max-width: 100%;
   }
-  body{
-    min-width: 100vh;
-    font-size: 10px;
-  }
+  body {
+    width: 100%;
+    font-size: 4%;
+}
 
-
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
 
   .header {
     display: flex;

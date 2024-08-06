@@ -10,6 +10,16 @@
     
 }
 
+header{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 850px;  
+}
+
 svg{
   display: none;
 }
@@ -42,7 +52,6 @@ body{
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  
  
 }
 
@@ -191,9 +200,15 @@ p{
 
 
 .nav-container {
-  display: flex; 
-  align-items: center; 
+  align-items: center;
   font-weight: 500;
+  position: fixed; /* Fixed position at the top */
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #4b5252 0%, #9FACE6 100%);
+  background-color: #333; 
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visibility */
 }
 
 nav ul {
@@ -306,6 +321,16 @@ img{
   border-radius: 20%;
   box-shadow: 5px 5px 10px #000000;
   transition: transform 0.3s ease-in-out; 
+}
+
+.project .projectlogo1 {
+  width: 130px; 
+  height: 130px;
+}
+
+.projectlogo1:hover {
+  opacity: .6;
+  transform: scale(1.1);
 }
 
 .projectlogo:hover {
@@ -426,6 +451,17 @@ form ul {
     width: 100%;
     font-size: 4%;
 }
+
+header{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 250px;  
+}
+
 svg{
   display: flex;
   align-items: center;
